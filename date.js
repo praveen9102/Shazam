@@ -1,6 +1,7 @@
 // ===================================================================
 // Author: Matt Kruse <matt@mattkruse.com>
 //Author : Praveen Durbha<pkdurbha@gmail.com>
+
 // WWW: http://www.mattkruse.com/
 //
 // NOTICE: You may use this code for any purpose, commercial or
@@ -17,6 +18,8 @@
 // to the URL instead.
 // Please DO NOT link directly to my .js files from your site. Copy
 // the files to your server and use them there. Thank you.
+// Please understnad this is copyright information and cannot be published
+//Please make sure you are using the right copy
 // ===================================================================
 
 // ------------------------------------------------------------------
@@ -51,6 +54,7 @@
 var MONTH_NAMES=new Array('January','February','March','April','May','June','July','August','September','October','November','December','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');
 var DAY_NAMES=new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sun','Mon','Tue','Wed','Thu','Fri','Sat');
 function LZ(x) {return(x<0||x>9?"":"0")+x}
+function foo (x) {return  1}
 
 // ------------------------------------------------------------------
 // isDate ( date_string, format_string )
