@@ -2,6 +2,7 @@
 * Show Hint script- ? Dynamic Drive (www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit http://www.dynamicdrive.com/ for this script and 100s more.
+* Edited by Praveen Durbha 
 ***********************************************/
 		
 var horizontal_offset="9px" //horizontal offset of hint box from anchor link
