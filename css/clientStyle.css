@@ -1,0 +1,126 @@
+.white_11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+.Black_11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+.Purple_12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #721A6F;
+}
+.Red_12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #DC0922;
+}
+.bodycopy_grey_10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+}
+.Purple_14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #721A6F;
+}
+.Purple_16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #721A6F;
+}
+.white_10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+.white_10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 11px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+}
+.required { 
+    color:#cc0000;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+TBODY {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.bodybold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.mainheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #721A6F;
+}
+.subheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #721A6F;
+}

@@ -1,0 +1,169 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+form {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	}
+
+input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	list-style-type: square;
+	list-style-position: outside;
+}
+
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+ol {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	list-style-type: decimal;
+	list-style-position: outside;
+}
+
+.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+.big {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.bodystyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.box1 {
+	padding: 3px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #CCCCCC #666666 #666666 #CCCCCC;
+}
+
+.box2 {
+	border-width: 3px;
+	border-style: solid;
+	padding: 5px;
+}
+.dropdown { position: absolute; color:white; width:140px;  border: #FFFFFF; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; top:110px; background-color: #666666;z-index:1; visibility: hidden ;}
+.drophead {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color: #FFFFFF;
+}
+.dropitem { text-decoration:none; color:white; font: 12px Arial, Verdana, Helvetica, sans-serif;}
+.drophead:hover { color:black; text-decoration:none }
+.dropitem:hover { color:black;text-decoration:none}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #660099;
+}
+.attention {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20 px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #663399;
+	text-decoration: none;
+}
+
+.athleteName {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+}
+.highlightEntry {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+.profileTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #660099;
+}
+.boldProfile {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.boldTexting {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.boldContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+.required { 
+    color:#cc0000;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12pt;
+    font-weight: normal;
+}
+mainheading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #660099;
+}
+subheading {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #660099;
+}
