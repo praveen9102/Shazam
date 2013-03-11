@@ -19,6 +19,7 @@
 // Please DO NOT link directly to my .js files from your site. Copy
 // the files to your server and use them there. Thank you.
 // Please understnad this is copyright information and cannot be published
+//Please make sure you are using the right copy
 // ===================================================================
 
 // ------------------------------------------------------------------
