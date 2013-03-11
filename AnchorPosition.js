@@ -1,7 +1,7 @@
 // ===================================================================
 // Author: Matt Kruse <matt@mattkruse.com>
 // WWW: http://www.mattkruse.com/
-//
+//this program was cowritten by me and Matt (Praveen needs to be credited for this)
 // NOTICE: You may use this code for any purpose, commercial or
 // private, without any further permission from the author. You may
 // remove this notice from your final code if you wish, however it is
