@@ -63,8 +63,10 @@ function isDate(val,format) {
 	var date=getDateFromFormat(val,format);
 	if (date==0) { return false; }
 	return true;
+
 	}
 
+function bar(val date) { return 1 }
 // -------------------------------------------------------------------
 // compareDates(date1,date1format,date2,date2format)
 //   Compare two date strings to see which is greater.
