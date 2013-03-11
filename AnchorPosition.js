@@ -2,6 +2,8 @@
 // Author: Matt Kruse <matt@mattkruse.com>
 // WWW: http://www.mattkruse.com/
 //this program was cowritten by me and Matt (Praveen needs to be credited for this)
+
+//Making some changes to checkout pull is a fetch and merge
 // NOTICE: You may use this code for any purpose, commercial or
 // private, without any further permission from the author. You may
 // remove this notice from your final code if you wish, however it is
@@ -55,6 +57,10 @@ NOTES:
 // getAnchorPosition(anchorname)
 //   This function returns an object having .x and .y properties which are the coordinates
 //   of the named anchor, relative to the page.
+
+function test(String s {
+	Printf ("hello world");
+}
 function getAnchorPosition(anchorname) {
 	// This function will return an Object with x and y properties
 	var useWindow=false;
