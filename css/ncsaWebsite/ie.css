@@ -1,0 +1,63 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: ie.css
+ * 
+ * Description:
+ * Rules for Internet Explorer 6.0 and earlier only. Intended for squashing bugs.
+ *
+ */
+
+/* PNG fixes */
+.one {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/bg_content-one.png",sizingMethod="scale");
+	}
+.two {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/bg_content-two.png",sizingMethod="scale");
+	}
+
+#lnav #getStarted {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/bg_lnav-getStarted.png",sizingMethod="crop");
+	}
+	
+.impactimg {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/impact.png",sizingMethod="scale");
+	}
+
+/* Home page trips */
+#home #contentBounds #middle .getReal, #home #contentBounds #middle .getSeen, #home #contentBounds #middle .getStarted {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/bg_callout_home.png",sizingMethod="crop");
+	}
+#home #contentBounds .hr {
+	margin: 0 0 20px;
+	}
+
+
+/* Qualify Button */
+#btnQualify a {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/btn_qualify.png",sizingMethod="crop");
+	}
+#btnQualify a:hover {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://recruit-match.ncsasports.org/fasttrack/images/ncsaWebsite/btn_qualify-hover.png",sizingMethod="crop");
+	}
+
+
+/* other IE PC inconsistencies */
+#mastHead #search .txt {
+	padding: 0 2px 2px;
+	}
+
+
+#mainColumn, #sideColumn {
+	height: 360px;
+	}
+
+
+hr { margin: .5em 0 1.5em; }

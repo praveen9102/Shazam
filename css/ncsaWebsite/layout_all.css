@@ -1,0 +1,99 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: layout_all.css
+ * 
+ * Description:
+ * Layout rules for all media.
+ *
+ */
+ 
+@import url(basestyles.css);
+
+body { margin: 0; }
+
+/* Basic Layout */
+#pageBounds {
+	}
+
+/* Content Bounds
+------------------------------------------------------------- */
+#contentBounds {
+	}
+#mainColumn {
+	}
+#sideColumn {
+	}
+
+/* Masthead 
+------------------------------------------------------------- */
+#mastHead {
+	}
+#mastHead hr {
+	display: none;
+	}
+#mastHead h2 {
+	}
+#mastHead h2 a {
+	}
+
+/* Search */
+#search {
+	}
+#search label {
+	}
+#query {
+	}
+#searchGo {
+	}
+
+/* Navigation
+------------------------------------------------------------- */
+/* Main Mavigation */
+#mnav {
+	}
+#mnav ul {
+	}
+#mnav li {
+	}
+#mnav a {
+	}
+
+/* Secondary Navigation */
+#snav {
+	}
+#snav ul {
+	}
+#snav li {
+	}
+#snav a {
+	}
+
+/* Local Mavigation */
+#lnav {
+	}
+#lnav ul {
+	}
+#lnav li {
+	}
+#lnav a {
+	}
+
+/* Footer Navigation */
+#fnav {
+	}
+#fnav ul {
+	}
+#fnav li {
+	}
+#fnav a {
+	}
+
+/* Footer
+------------------------------------------------------------- */
+#footer {
+	}
+
+/* Copyright */
+#copyright {
+	}

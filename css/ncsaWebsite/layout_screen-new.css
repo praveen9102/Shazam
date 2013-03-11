@@ -1,0 +1,747 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: layout_screen.css
+ * 
+ * Description:
+ * Rules for screen display only. General display rules should appear in 
+ * layout_all.css or basesyles.css.
+ *
+ */
+
+#content fieldset {
+	border: 1px solid #ddd;
+	padding: 15px;
+	}
+#content legend {
+	padding: 5px;
+	}
+ 
+body {
+	background: #000 url("../../images/ncsaWebsite/bg_body.gif") left top repeat;
+	text-align: center;
+	}
+
+.width { width: 770px; margin: 0 auto; position: relative; text-align: left; }
+
+#mastHead {
+	background: #000 url("../../images/ncsaWebsite/bg_masthead.gif") left top repeat-x;
+	padding: 10px 0 0 0;
+	width: 100%;
+	border-bottom: 5px solid #f90;
+	font-size: 85%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ccc;
+	}
+
+#mastHead h2#logo {	margin: 0; padding: 0; }
+#mastHead h2#logo a {
+	display: block;
+	background: transparent url("../../images/ncsaWebsite/bg_logo.gif") left top no-repeat;
+	width: 226px;
+	height: 77px;
+	text-indent: -999em;
+	overflow: hidden;
+	}
+#mastHead #search {
+	position: absolute;
+	width: 190px;
+	bottom: 5px;
+	right: 0;
+	}
+#mastHead fieldset {
+	border: none;
+	margin: 0;
+	display: inline;
+	}
+#mastHead #search .txt {
+	background-color: #444;
+	float: left;
+	width: 140px;
+	margin: 0 3px 0 0;
+	padding: 3px;
+	border: 1px solid #666;
+	color: #fff;
+	}
+#mastHead #search .btn {
+	float: right;
+	}
+
+/* unstyle all ULs in the mastHead */
+#mastHead ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+/* Eyebrow Nav */
+#enav {
+	position: absolute;
+	top: -5px;
+	right: 0;
+	width: 200px;
+	}
+#enav ul li {
+	float: left;
+	margin: 0 1px 0 0;
+	padding: 0 9px;
+	border-right: 1px solid #555;
+	}
+#enav ul li a {
+	line-height: 1.8em;
+	text-decoration: none;
+	color: #ccc;
+	display: block;
+	}
+#enav ul li a:hover {
+	text-decoration: underline;
+	}
+#enav ul li.login {
+	background: transparent url("../../images/ncsaWebsite/bg_li-login.gif") right center no-repeat;
+	margin: 0 5px 0 0;
+	padding: 0 9px 0 0;
+	border-right: 0;
+	}
+#enav ul li.login a {
+	background: transparent url("../../images/ncsaWebsite/bg_li-login-a.gif") left center no-repeat;
+	padding: 0 0 0 9px;
+	border-right: 0;
+	}
+#enav ul li.last {
+	padding-right: 0;
+	border-right: 0;
+	}
+
+
+/* Main Nav */
+#mnav {
+	width: 570px;
+	}
+#mnav ul li {
+	float: left;
+	margin: 0 1px 0 0;
+	}
+#mnav ul li a {
+	line-height: 1em;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 7px 8px;
+	background: #606060 url("../../images/ncsaWebsite/bg_mnav-a.gif") left bottom repeat-x;
+	}
+#mnav ul li a:hover {
+	background: #717171 url("../../images/ncsaWebsite/bg_mnav-a-hover.gif") left bottom repeat-x;
+	}
+#mnav ul li em a,
+#mnav ul li em a:hover {
+	background: #ffdf2c url("../../images/ncsaWebsite/bg_mnav-a-here.gif") left bottom repeat-x;
+	color: #000;
+	font-style: normal;
+	}
+
+/* Sub Nav */
+#snav {
+	margin: 0;
+	background: #f90;
+	}
+#snav ul, #snav ul li { margin: 0; display: inline; }
+#snav h4 { display: none; margin: 0; }
+#snav ul {
+	display: block;
+	margin: 0 0 0 8px;
+	padding: 0;
+	list-style: none;
+	}
+#snav ul li {
+	margin: 5px 10px 0 0;
+	padding: 0 10px 0 0;
+	float: left;
+	color: #000;
+	border-right: 1px solid #c60;
+	}
+#snav ul li form label {
+	float: left;
+	margin: 0 5px 0 0;
+	}
+#snav ul li a {
+	text-decoration: none;
+	display: block;
+	color: #000;
+	}
+#snav ul li a:hover {
+	text-decoration: underline;
+	}
+
+#contentBounds {
+	background: #666 url("../../images/ncsaWebsite/bg_contentBounds.gif") left top repeat-x;
+	border-bottom: 2px solid #6e1687;
+	padding: 0 0 30px 0;
+	text-align: left;
+	}
+
+#content h1, #content h2, legend { margin: 0; }
+
+#content {
+	position: relative;
+	float: left;
+	margin: 25px -7px 0;
+	width: 574px;
+	}
+.one {
+	background: transparent url("../../images/ncsaWebsite/bg_content-one.png") left top repeat-y;
+	}
+.two {
+	background: transparent url("../../images/ncsaWebsite/bg_content-two.png") left top repeat-y;
+	}
+
+#content h1 {
+	background: #000 url("../../images/ncsaWebsite/bg_h1.gif") left top repeat-x;
+	color: #fff;
+	border-top: 1px solid #370b43;
+	margin: 0 7px;
+	padding: 9px 15px;
+	}
+#content a { color: #06c; text-decoration: underline; }
+#content a:hover { color: #6e1687; text-decoration: none; }
+
+#mainColumn, #sideColumn {
+	padding-top: 15px; 
+	min-height: 360px;
+	}
+.two #mainColumn {
+	display: inline;
+	float: right;
+	margin: 0 22px 0 0;
+	width: 300px;
+	}
+.two #sideColumn {
+	float: left;
+	margin: 0 0 0 22px;
+	display: inline;
+	width: 200px;
+	}
+.one #mainColumn {
+	display: inline;
+	float: right;
+	margin: 0 25px 0 0;
+	width: 525px;
+	}
+#mainColumn h2 {
+	padding-bottom: 3px;
+	line-height: 20px;	
+	}
+#mainColumn img, #sideColumn img {
+	border: #666 solid 1px;
+	padding: 2px 2px 2px 2px;
+}
+
+.one #mainColumn h4 {
+	padding-top: 5px;	
+	}
+
+#content #sideColumn h2 {
+	color: #930;
+	font-size: 118%;
+	line-height: 1.2em;
+	}
+#content #sideColumn h3 {
+	margin: 0;
+	font-size: 110%;
+	}
+#content div.bottom {
+	border-bottom: 1px solid #333;
+	clear: both;
+	padding: 20px 0 0;
+	margin: 0 7px;
+	width: 560px;
+	}
+#content div.bottom hr { display: none; }
+
+
+#ticker {
+	background: #4b4b4b url("../../images/ncsaWebsite/bg_ticker.gif") left center repeat-x;
+	color: #ffc51b;
+	font-size: 85%;
+	font-weight: bold;
+	height: 2.4em;
+	line-height: 24px;
+	margin: 0 7px 0;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 560px;
+	}
+#ticker ul { margin: 0; }
+#ticker ul li {
+	margin: 0 8px;
+	display: inline;
+	}
+
+ul#pageNav {
+	margin: 2em 0;
+	padding: 0;
+	list-style: none;
+	font-size: 85%;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	}
+ul#pageNav li {
+	float: left;
+	display: inline;
+	margin: 0 1px;
+	border: 1px solid #ddd;
+	border-bottom-width: 0;
+	}
+ul#pageNav li.divisions, ul#pageNav li.features, ul#pageNav li.state {
+	margin-left: 25px;
+	}
+ul#pageNav li a {
+	display: block;
+	padding: 2px 5px;
+	background: #eee;
+	text-decoration: none;
+	}
+ul#pageNav li em a {
+	font-style: normal;
+	color: #000;
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	margin: 0 0 -1px;
+	position: relative;
+	z-index: 99;
+	}
+
+table.powerRankings {
+	
+	}
+table.powerRankings th, table.powerRankings td {
+	font-size: 92%;
+	line-height: 1.1em;
+	padding: 3px;
+	border-bottom: 1px solid #eee;
+	}
+table.powerRankings th {
+	background: #eee;
+	border-bottom: 2px solid #ddd;
+	}
+
+#lnav {
+	float: left;
+	margin: 125px 0 0;
+	position: relative;
+	z-index: 100;
+	width: 210px;
+	}
+#lnav a { color: #fff; text-decoration: underline; }
+#lnav a:hover { color: #fc3; text-decoration: none; }
+#lnav ul {
+	list-style: none;
+	margin: 0;
+	}
+#lnav ul li {
+	background: transparent url("../../images/ncsaWebsite/bg_lnav-li.gif") left .3em no-repeat;
+	font-size: 118%;
+	font-weight: bold;
+	line-height: 1.6em;
+	padding: 0 0 0 15px;
+	position: relative;
+	}
+#lnav ul li ul li {
+	background: transparent url("../../images/ncsaWebsite/bg_lnav-li-li.gif") left .5em no-repeat;
+	font-size: 85%;
+	font-weight: normal;
+	line-height: 1.2em;
+	margin: 0 0 0 .3em;
+	padding: .2em 0 .2em 10px;
+	}
+#lnav ul li a {
+	color: #fff;
+	text-decoration: none;
+	}
+#lnav ul li a:hover {
+	color: #fc3;
+	}
+
+#lnav #getStarted, #contentBounds #middle .getReal, #contentBounds #middle .getSeen, #contentBounds #middle .getStarted {
+	background: transparent url("../../images/ncsaWebsite/bg_lnav-getStarted.png") center top no-repeat;
+	margin: 2em 0 0 10px;
+	padding: 16px;
+	min-height: 90px;
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 1.2em;
+	color: #fff;
+	width: 195px;
+  voice-family: "\"}\""; 
+  voice-family:inherit;
+  width: 163px;
+	}
+#lnav #getStarted h3 {
+	background: #ffdf2c url("../../images/ncsaWebsite/bg_mnav-a-here.gif") left bottom repeat-x;
+	border-bottom: 1px solid #e07a00;
+	padding: 5px;
+	margin: -5px -5px 5px;
+	position: relative;
+	font-size: 160%;
+	color: #000;
+	}
+
+/* Qualify Button */
+#btnQualify a {
+	background: transparent url("../../images/ncsaWebsite/btn_qualify.png") center center no-repeat;
+	display: block;
+	width: 133px;
+	height: 33px;
+	margin: 0 auto;
+	text-indent: -999em;
+	overflow: hidden;
+	cursor: pointer;
+	}
+#btnQualify a:hover {
+	background: transparent url("../../images/ncsaWebsite/btn_qualify-hover.png") center center no-repeat;
+	cursor: pointer;
+	}
+
+/* Footer */
+#footer { padding: 10px 0 20px; }
+#footer, #footer a {
+	font-size: 85%;
+	line-height: 1.2em;
+	color: #ccc;
+	}
+#footer a {
+	font-size: 100%;
+	font-weight: bold;
+	text-decoration: none;
+	}
+#footer a:hover {
+	text-decoration: underline;
+	}
+
+#footer ul { list-style: none; }
+#footer ul li {
+	display: inline;
+	padding: 0 10px;
+	border-right: 1px solid #555;
+	}
+
+
+/* Sport Specific Image */
+#contentBounds .basketball {
+	background: transparent url("../../images/ncsaWebsite/sports/bg_basketball.jpg") right top no-repeat;
+	}
+	
+/* Student Athletes & Families */
+#sportList li {
+	width:33%;
+	float:left;
+	font-size: 92%;
+}
+#collegeList {
+	margin: 10px 0 0 25px;
+	}
+#collegeList li {
+	width:50%;
+	float:left;
+	font-size: 92%;
+	list-style:none;
+}
+.sportFeature {
+	width: 48%;
+	float: left;
+}	
+
+.right {
+	float: right;
+	}
+.fl_left {
+	float: left;
+	padding: 0 8px 5px 0;
+	}
+.fl_right {
+	float: right;
+	padding: 0 0 5px 5px;
+	}
+.sportFeature hr {
+	margin: 3px 0 7px 0;
+}	
+/* College Coaches */
+
+#profileList {
+	margin:0;
+	}
+#profileListOdd {
+	margin:0;
+	}
+.listOdd {
+	background-color: #eee;
+}
+
+/* Contact and Register Form */
+
+#contact .fl_left {
+	width: 48%;
+	float: left;
+	}	
+#contact .fl_right {
+	float: right;
+	width: 48%;
+	}
+label {
+	margin: 3px 5px 0 0;
+  	}
+.formElement {
+	margin: 2px 0 4px 0;	
+	}
+.stretchy { 
+	width: 97%; 
+	}
+.privacy {
+	font-size: 85%;
+	line-height: 1.2em;
+	margin-top: 5px;
+	}
+.submitBtn {
+	margin: 5px 0 0 205px;
+	}
+	
+/* Home */
+#home, #home #contentBounds a {
+	color: #fff;
+	}
+#home #contentBounds a:hover { 
+	color: #fc3; text-decoration: none;
+	}
+#home #contentBounds {
+	background: #666 url("../../images/ncsaWebsite/bg_contentBounds_home.gif") left top repeat-x;
+	}
+#home #contentBounds .width {
+	padding-top: 7px;
+	}
+#home #contentBounds .baseball {
+	background: transparent url("../../images/ncsaWebsite/sports/bg_baseball_home.jpg") right top no-repeat;
+	}
+
+#home #contentBounds .intro {
+	margin: 0;
+	padding-top: 20px;
+	font-size: 120%;
+	}
+#home #contentBounds .intro .mission {
+	float: left;
+	width: 420px;
+	}
+#home #contentBounds .intro .mediaPlayer {
+	position: relative;
+	float: right;
+	width: 335px;
+	text-align: right;
+	margin: -16px 0 0;
+	}
+
+
+#home #contentBounds #middle .getReal, #home #contentBounds #middle .getSeen, #home #contentBounds #middle .getStarted {
+	position: relative;
+	background: transparent url("../../images/ncsaWebsite/bg_callout_home.png") center top no-repeat;
+	margin: 0;
+	padding: 19px 19px 0;
+	float:left;
+	width: 258px;
+	voice-family: "\"}\""; 
+	voice-family:inherit;
+	width: 220px;
+ 	}
+#home #contentBounds #middle .getReal {
+	margin: 0 7px 0 -9px;
+	}
+#home #contentBounds #middle .getSeen {
+	margin: 0;
+	}
+#home #contentBounds #middle .getStarted {
+	margin: 0 -9px 0 0;
+	float: right;
+ 	}  
+#home #contentBounds #middle h3 {
+	background: #ffdf2c url("../../images/ncsaWebsite/bg_mnav-a-here.gif") left bottom repeat-x;
+	border-bottom: 1px solid #e07a00;
+	padding: 6px 8px;
+	margin: -9px -9px 8px;
+	position: relative;
+	font-size: 160%;
+	color: #000;
+	}
+#home #contentBounds .hr {
+	margin: 10px 0 20px;
+	background: url("../../images/ncsaWebsite/bg_hr.gif") left top repeat-x;
+	height: 2px;
+	}
+#home #contentBounds .hr hr {
+	display: none;
+	}
+
+#home #contentBounds #bottom {
+	font-size: 92%;
+	}
+#home #contentBounds #bottom h2 {
+	margin: 0;
+	color: #eee;
+	font-size: 128%;
+	font-style: bold;	
+	}
+.yourSport {
+	float:left;
+	margin-left: 10px;
+	display: inline;
+	width: 510px;
+	background: url("../../images/ncsaWebsite/bg_hr_vert.gif") right top repeat-y;
+	}
+.signUp {
+	float: right;
+	width: 230px;
+	}
+.goBtn {
+	padding: 0 3px;
+	}
+#contentBounds #middle .fl_right {
+	padding: 3px 3px 0 15px;
+	}
+#contentBounds #bottom .fl_right {
+	padding: 3px 20px 0 15px;
+	}
+	
+/* power rankings */
+
+.year {
+	border-left: 1px solid #ddd;
+	width: 110px;
+	padding-left: 10px;
+	}
+	
+.year select {
+	width: 60px;
+	}
+
+/*
+div.container {
+	clear: both;
+	margin: 0 0 20px;
+	vertical-align: middle;
+	}
+	
+div.container div.fl_left {
+	width: 100px;
+	text-align: center;
+	padding: 0;
+	}
+	
+div.container div.fl_left img {
+	border: none;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	
+table.ranking {
+	font-size: 92%;
+	}
+	
+table.ranking a {
+	font-size: 130%;
+	}
+	
+table.ranking td {
+	vertical-align: middle;
+	padding: 8px 0 8px 26px;
+	}
+	
+table.ranking td.img {
+	text-align: center;
+	width: 96px;
+	padding-left: 0;
+	}*/
+	
+ul.college_features, ul.college_detail {
+	font-size: 92%;
+	list-style: none;
+	margin: 0;
+	}
+	
+ul.college_features li {
+	clear: both;
+	margin: 15px 0;
+	}
+	
+ul.college_features a {
+	font-size: 130%;
+	}
+	
+ul.college_features div.fl_left, ul.college_detail div.fl_left {
+	width: 100px;
+	text-align: center;
+	padding: 3px 0 0;
+	}
+	
+ul.college_features li p {
+	margin: 0 0 0 130px;
+	}
+	
+ul.college_detail li {
+	float: left;
+	}
+	
+ul.college_detail li.thumbnail {
+	float: right;
+	}
+	
+ul.college_detail li h3 {
+	margin-bottom: 0;
+	font-weight: normal;
+	font-size: 130%;
+	}
+	
+ul.college_detail li p {
+	margin-bottom: .25em;
+	}
+/*
+.mediaPlayer.recruiting {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	}
+	
+.mediaPlayer.recruiting img {
+	float: left;
+	margin: 0;
+	padding: 0;
+	}
+	
+.mediaPlayer.recruiting .text {
+	margin-left: 335px;
+	}
+*/	
+
+/* sports */
+
+.virtual {
+	padding: 8px 8px 8px 0;
+	}	
+ 
+.virtual .img_frame {
+	border: #aaa solid 1px;
+	padding: 3px;
+	background: #fff;
+	}
+
+.fl_right.impact {
+	padding: 0 0 10px 30px;
+	}
+
+
+.impactimg {
+	position: relative;
+	margin: -60px 0 0 -12px;
+	}
+*/

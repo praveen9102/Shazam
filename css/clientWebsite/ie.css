@@ -1,0 +1,76 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: ie.css
+ * 
+ * Description:
+ * Rules for Internet Explorer 6.0 and earlier only. Intended for squashing bugs.
+ *
+ */
+
+/* PNG fixes */
+.one {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.ncsasports.org/dir_images/bg_content-one.png",sizingMethod="scale");
+	}
+.two {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.ncsasports.org/dir_images/bg_content-two.png",sizingMethod="scale");
+	}
+.impactBadge {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.ncsasports.org/dir_images/sports/impact.png",sizingMethod="scale");
+	}
+
+#full {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.ncsasports.org/dir_images/bg_content-full.png",sizingMethod="scale");
+	}
+
+
+#lnav #getStarted, #lnav .getReal, #lnav .getSeen {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.ncsasports.org/dir_images/bg_lnav-getStarted.png",sizingMethod="crop");
+	}
+#lnav #getStarted p {
+	position: relative;
+	}
+
+/* Home page trips */
+#home #contentBounds #middle .getReal, #home #contentBounds #middle .getSeen, #home #contentBounds #middle .getStarted {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/ncsa/dir_images/bg_callout_home.png",sizingMethod="crop");
+	}
+
+#home #contentBounds #middle .getReal p, #home #contentBounds #middle .getSeen p, #home #contentBounds #middle .getStarted p {
+	position: relative;
+	}
+
+#home #contentBounds .hr {
+	margin: 0 0 20px;
+	}
+
+
+/* Qualify Button */
+#btnQualify a {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/ncsa/dir_images/btn_qualify.png",sizingMethod="crop");
+	}
+#btnQualify a:hover {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/ncsa/dir_images/btn_qualify-hover.png",sizingMethod="crop");
+	}
+
+
+/* other IE PC inconsistencies */
+#mastHead #search .txt {
+	padding: 0 2px 2px;
+	}
+
+
+#mainColumn, #sideColumn {
+	height: 360px;
+	}
+
+
+hr { margin: .5em 0 1.5em; }

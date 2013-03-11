@@ -1,0 +1,123 @@
+/*
+ * Author: Duo Consulting
+ * Contact: www.duoconsulting.com
+ * File: basestyles.css
+ * 
+ * Description:
+ * Basic styling rules.
+ *
+ */
+
+/* Global White Space Reset - Hat Tip: Andrew Krespanis of http://leftjustified.net/  */
+* {
+	padding:0;
+	margin:0;
+	}
+p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin: 0 0 1em; }
+ul, ol { margin-left: 1.9em; }
+/* End GWR */
+
+/* Custom Styles
+-------------------------------------------------------- */
+body {
+	color: #000;
+	background: #fff;
+	font: 75%/140% Arial, Helvetica, sans-serif;
+	}
+
+hr {
+	background-color: #ccc;
+	border: none;
+	margin: 1.5em 0;
+	height: 1px;
+	color: #ccc;
+	}
+
+/* Forms - input, select, textarea
+-------------------------------------------------------- */
+input, select, textarea {
+	font: 100%/140% Arial, Helvetica, sans-serif;
+	}
+
+
+/* Tables - table, tr, th, td
+-------------------------------------------------------- */
+th, td {
+	padding: 2px;
+	text-align: left;
+	font-size: 75%; /* for IE 5.x */
+	voice-family: "\"}\""; 
+  voice-family:inherit;
+	font-size: 100%; /* for compliant browsers */
+} 
+th { vertical-align: bottom; }
+td { vertical-align: top; }
+
+/* Lists - ol, ul, li, dl, dt, dd
+-------------------------------------------------------- */
+
+
+
+/* Links - a, a:hover
+-------------------------------------------------------- */
+a { }
+a:hover { }
+
+/* Headers - h1, h2, h3, h4, h5, h6
+-------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 { 
+	font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; 
+	margin-bottom: .5em; 
+	}
+h1 { font-size: 183%; margin: .25em 0 .75em; }
+h2, legend { font-weight: bold; font-size: 150%; margin: 1em 0 1em; color: #6e1687; }
+h3 { font-size: 117%; margin: 0 0 .75em; }
+h4 { font-size: 100%; margin: 0;  }
+h5 { font-size: 90%; }
+h6 { font-size: 80%; }
+
+/* Text
+-------------------------------------------------------- */
+b, strong { font-weight: bold; }
+i, em { font-style: oblique; }
+
+/* Misc
+-------------------------------------------------------- */
+.normal { font-size: 1em; line-height: 1.3em; font-weight: normal; }
+
+.error {
+	font-weight: bold;
+	}
+
+.clear {
+	clear: both;
+	}
+
+.skipper {
+	position: absolute;
+	left: -5000px;
+	top: 0;
+	width: 1px;
+	height: 1px; 
+	overflow: hidden;
+	}
+
+.hide {
+	position: absolute;
+	left: -5000px;
+	top: 0;
+	width: 1px;
+	height: 1px; 
+	overflow: hidden;
+	}
+
+
+/* Clearing floats - Hat Tip: http://www.positioniseverything.net/easyclearing.html  */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+/* JCK - added this next line to remove the extra spacing in Safari and Firefox */
+.c\learfix:after { line-height: 0; }
+.clearfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
