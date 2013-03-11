@@ -1,4 +1,5 @@
 #hintbox{ /*CSS for pop up hint box */
+/* Last edited by Praveen Durbha */
 position:absolute;
 top: 0;
 background-color: lightyellow;
@@ -19,3 +20,4 @@ font-weight: bold;
 color: navy;
 margin: 3px 8px;
 }
+
