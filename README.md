@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [jQuery](http://jquery.com/) - New Wave JavaScript
 ==================================================
 
@@ -396,3 +397,9 @@ Questions?
 
 If you have any questions, please feel free to ask on the
 [Developing jQuery Core forum](http://forum.jquery.com/developing-jquery-core) or in #jquery on irc.freenode.net.
+=======
+Shazam
+======
+
+An Amazing project
+>>>>>>> 6367434d6d5e950c3fe633dd7b05bd61bfdcc6bb
