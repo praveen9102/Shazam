@@ -1,6 +1,7 @@
 // ===================================================================
 // Author: Matt Kruse <matt@mattkruse.com>
 //Author : Praveen Durbha<pkdurbha@gmail.com>
+
 // WWW: http://www.mattkruse.com/
 //
 // NOTICE: You may use this code for any purpose, commercial or
@@ -17,6 +18,7 @@
 // to the URL instead.
 // Please DO NOT link directly to my .js files from your site. Copy
 // the files to your server and use them there. Thank you.
+// Please understnad this is copyright information and cannot be published
 // ===================================================================
 
 // ------------------------------------------------------------------
